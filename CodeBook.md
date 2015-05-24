@@ -81,7 +81,7 @@ TimeBodyAccelerometerJerkMean
 TimeBodyGyroscopeMean
 TimeBodyGyroscopeJerkMean
 
-Mean cleaned data per subject per activity
+Mean cleaned data per subject and activity
 ------------------------------------------
 
 *make_UCI_HAR_dataset_mean_values(data)* function from *run_analysis.R* builds a data frame from cleaned data.
