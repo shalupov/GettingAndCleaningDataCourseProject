@@ -34,12 +34,13 @@ For each record it is provided:
 Cleaned data for each experiment
 --------------------------------
 
-*make_tidy_UCI_HAR_dataset* from *run_analysis.R* builds a data frame from original raw data.
+*make_tidy_UCI_HAR_dataset()* function from *run_analysis.R* builds a data frame from original raw data.
 Each row describes one experiment. Each column denotes the following:
 
-* *Subject* Subject # (from 1 to 30)
-* *Activity* Subject activity during the experiment
-* Other columns contain mean and standard deviation for various variables captured during the experiment. Thier description as follows.
+* *Subject*: Subject # (from 1 to 30)
+* *Activity*: Subject activity during the experiment, one of (Laying, Sitting, Standing, Walking, WalkingDownstairs, WalkingUpstairs)
+* Other columns contain mean and standard deviation for various variables captured during the experiment.
+  Their description as follows.
 
 Experiment Features (Variables)
 -------------------------------
@@ -70,7 +71,7 @@ These signals were used to estimate variables of the feature vector for each pat
 The set of variables that were estimated from these signals are: 
 - mean: Mean value
 - std: Standard deviation
-- angle: Angle between to vectors.
+- angle: Angle between two vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle variable:
 
@@ -83,9 +84,9 @@ TimeBodyGyroscopeJerkMean
 Mean cleaned data per subject per activity
 ------------------------------------------
 
-*make_UCI_HAR_dataset_mean_values* from *run_analysis.R* builds a data frame from cleaned data.
+*make_UCI_HAR_dataset_mean_values(data)* function from *run_analysis.R* builds a data frame from cleaned data.
 Each row describes one pair (Subject, Activity). Each column denotes the following:
 
 * *Subject* Subject # (from 1 to 30)
-* *Activity* Subject activity during the experiment
+* *Activity* Subject activity during the experiment, one of (Laying, Sitting, Standing, Walking, WalkingDownstairs, WalkingUpstairs)
 * Other columns contain mean values for every variable for every subject and activity. See previous section for variables description.
