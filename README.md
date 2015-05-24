@@ -3,7 +3,7 @@ Getting and Cleaning Data Course Project
 
 This is the course project for "Getting and Cleaning Data" Coursera course.
 
-It cleans data for human activity recognition raw data downloaded from
+It cleans the data for human activity recognition raw data downloaded from
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 Project description for the course as follows:
@@ -17,5 +17,5 @@ Project description for the course as follows:
 
 In this repository:
 
-* *run_analysis.R* all required functions and their description
-* *CodeBook.md* output description usable for subsequent data processing
+* *run_analysis.R*: all required functions and their description
+* *CodeBook.md*: output description usable for subsequent data processing
