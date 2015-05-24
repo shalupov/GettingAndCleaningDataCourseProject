@@ -19,3 +19,5 @@ In this repository:
 
 * *run_analysis.R*: all required functions and their description
 * *CodeBook.md*: output description usable for subsequent data processing
+
+Follow [*CodeBook.md*](CodeBook.md) for further information.
